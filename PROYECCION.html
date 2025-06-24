@@ -1,0 +1,130 @@
+ <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mi Página Web</title>
+        <link rel="stylesheet" href="style.css">
+		<link href="./CSS/mi_estilo.css" rel="stylesheet" />
+    </head>
+	 <body>
+	 <main id="contenedor-principal">
+    <!-- Cabecera de la página -->
+    <header class="header">
+      <h1>LA CARTOGRAF&IacuteA</h1>
+    </header>
+
+    <!-- Menu de navegación -->
+    <nav class="main-nav">
+	<ul>
+	    <li>
+          <a href="index.html">CARTOGRAFIA</a>
+		</li>
+        <li>
+          <a href="CLASIFICACION.html">CLASIFICACI&OacuteN <br> DE MAPAS</a>
+		</li>
+		<li>
+		  <a href="ESCALA.html">ESCALA</a>
+		</li>
+		<li>
+		  <a href="SISTEMA.html">TIPOS <br> DE MAPAS</a>
+		</li>
+		<li>
+		  <a href="PROYECCION.html">PROYECCIONES CARTOGR&AacuteFICAS</a> 
+		</li> 
+	</ul>	
+	</nav>
+	
+	 <!-- Bloque de contenido -->
+    <section class="main-section">
+        <!-- Contenido Principal -->
+        <article class="main-article">
+		<nav class="main-nav">	
+            <h1 style="margin-top: 1em;">LAS PROYECCIONES CARTOGR&AacuteFICAS</h1>   
+		</nav>	
+		
+             <p style="margin-top: 1em;">
+				La representación de la superficie terrestre sobre una superficie plana, sin que haya deformaciones, es geom&eacutetricamente imposible. <br>
+				En cartografía, este problema se resuelve mediante las proyecciones. <br> 
+				Así, una proyección cartográfica es una correspondencia biunívoca entre los puntos de la superficie terrestre y sus transformados en el plano llamado plano de proyección.
+		     </p>
+				
+			  <div style="text-align:center;">
+               <img style="margin-top: 2em;" src="./imagenesT/PROYECCIONES.jpg" alt="Drone realizando fotogrametría sobre terreno">
+                  <figcaption>  </figcaption>
+              </div>   	
+			  
+			<p style="margin-top: 2em;">Este método consiste en establecer una radiación de semirrectas a través de un punto, llamado vértice de proyecci&oacuten; se consigue así una correspondencia entre cada punto interceptado en la esfera y su homólogo en el plano cortado por la misma semirrecta.<br>
+			Las proyecciones tampoco evitan ciertas distorsiones que, según como se proyecten, pueden afectar a la forma, al área, a las distancias o a los ángulos de los elementos representados, y aquí surge otro aspecto importante de la cartografía: decidir qué proyección se va a utilizar para minimizar esas distorsiones.<br>
+			Las proyecciones admiten diversas clasificaciones dependiendo de sus cualidades, fundamentos, propiedades:
+                  <ol style="margin-top: 1em;">
+				      <strong style="margin-left: 50px;">a. En función de las cualidades métricas</strong> <br>
+                      <strong style="margin-left: 50px;">b. En función de las cualidades proyectivas</strong>			  
+				  </ol>
+		    <p style="margin-top: 1em;">Otro grupo importante de proyecciones lo constituyen las diseñadas para poder representar la totalidad de la superficie terrestre sin incurrir en deformaciones excesivas, permitiendo representar fenómenos geográficos globales.</p>
+			      
+				  <ol style="margin-top: 1em;">
+				     <strong style="margin-left: 50px;">Proyecciones modificadas</strong>
+                  </ol>         
+				  
+         <ol>				  
+		     <h3 style="margin-top: 1em;"><li><strong>En función de las cualidades métricas.</strong></li></h3>
+		</ol>
+		    <p style="margin-top: 1em;">En el paso de la esfera al plano resultará imposible conservar simultáneamente las propiedades geométri- cas: ángulos, superficies y distancias se verán distor- sionadas.<br> 
+			    Las proyecciones cartográficas se pueden clasificar en función de la cualidad que conserven:</p>
+
+        <h4 style="margin-top: 1em;">a.- Proyecciones Conformes</h4>
+		   
+		     <p style="margin-top: 1em;">Una proyección cartográfica es conforme cuando mantiene los ángulos que forman dos líneas en la su- perficie terrestre. <br> 
+		        Este tipo de proyecciones se utilizan en cartas de navegación.</p>
+	
+	            <div style="text-align:center;">
+                   <img style="margin-top: 2em;" src="./imagenesT/PROYECCIONES2.jpg" alt="Drone realizando fotogrametría sobre terreno">
+                    <figcaption>  </figcaption>
+                </div>  
+	         <p style="margin-top: 1em;"> En la figura propuesta, el ángulo que forman las direc- ciones Polo sur Madrid Calcuta será igual tanto en la esfera como en el mapa si se realiza con una proyec- ción conforme.</p>
+		  
+        <h4 style="margin-top: 1em;">b.- Proyecciones Equivalentes</h4>
+		
+	           <p style="margin-top: 1em;">Una proyección cartográfica es equivalente cuando en el mapa se conservan las superficies del terreno, aunque las figuras dejen de ser semejantes. <br>
+			      Se utilizan generalmente en mapas temáticos o parcelarios.</p>
+	
+	          <div style="text-align:center;">
+               <img style="margin-top: 2em;" src="./imagenesT/PROYECCIONES3.jpg" alt="Drone realizando fotogrametría sobre terreno">
+                  <figcaption>  </figcaption>
+              </div>  
+	         <p style="margin-top: 1em;">En la figura propuesta se observa que, al utilizar una proyección equivalente, la superficie del continente africano es igual <br>
+    		  en la esfera terrestre que la medida en el mapa, aunque su contorno pueda aparecer consi- derablemente deformado. </p>
+		  
+	    <h4 style="margin-top: 1em;">c.- Proyecciones Equidistantes</h4>
+		
+	           <p style="margin-top: 1em;">
+					   Una proyección cartográfica es equidistante cuando mantiene las distancias entre dos puntos <br> 
+					   situados en la superficie terrestre (distancia representada por el arco de círculo máximo que las une).</p>
+	
+	          <div style="text-align:center;">
+               <img style="margin-top: 2em;" src="./imagenesT/PROYECCIONES4.jpg" alt="Drone realizando fotogrametría sobre terreno">
+                  <figcaption>  </figcaption>
+              </div>  
+	      <p style="margin-top: 1em;">Por ejemplo, la distancia real de un vuelo Miami - Calcuta será igual a la equivalente que puede medirse directamente en un mapa creado con una proyección de tipo equidistante.</p>  
+		  
+	    <h4 style="margin-top: 1em;">d.- Proyecciones Afil&aacutecticas</h4>
+		
+	           <p style="margin-top: 1em;">Una proyección cartográfica es afiláctica cuando no conserva ángulos, superficies ni distancias, pero las deformaciones son mínimas.</p>
+	
+	          <div style="text-align:center;">
+                <img style="margin-top: 2em;" src="./imagenesT/PROYECCIONES5.jpg" alt="Drone realizando fotogrametría sobre terreno">
+                 
+              </div>  
+			  
+				<p style="margin-top: 1em;">
+					  En conclusión, se debe seleccionar el tipo de proyecci&oacuten según el propósito del mapa. <br> 
+					  Si por ejemplo se requiere el cálculo y comparación de superficies, será necesario utilizar proyecciones de tipo equivalente.<br>
+					  Si por el contrario, el objetivo del mapa es simplemente ubicar los países del mundo, y no se requiere rigor en las mediciones de áreas, pueden utilizarse las proyecciones conformes.
+				</p>
+
+			</section>
+		</main>		
+		<script src="./JS/mi_javascript.js"></script>
+		</body>
+    </html>
