@@ -8,7 +8,7 @@
 /* Fuente y cuerpo */
 body {
   font-family: 'Georgia', serif;
-  background-color: #fcb7af;
+  background-color: #392f49;
   color: #222;
   line-height: 1.6;
   padding: 2em;
@@ -16,7 +16,7 @@ body {
 
 /* Cabecera */
 .header {
-  background-color: #87cefa;
+  background-color: #98608a;
   color: white;
   padding: 1em;
   text-align: center;
@@ -41,7 +41,7 @@ body {
 
 .main-nav a {
   text-decoration: none;
-  background-color: #87cefa;
+  background-color: #e98db4;
   color: white;
   padding: 0.5em 1em;
   border-radius: 4px;
@@ -63,7 +63,7 @@ body {
 
 /* Títulos */
 .main-section h2 {
-  color: #003366;
+  color: #red;
   margin-bottom: 0.5em;
   margin-top: 1.5em;
   font-size: 1.5em;

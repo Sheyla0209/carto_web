@@ -1,3 +1,4 @@
+
 document.addEventListener("DOMContentLoaded", () => {
   const secciones = document.querySelectorAll(".main-section, .header, .main-nav");
 
